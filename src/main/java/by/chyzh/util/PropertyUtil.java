@@ -15,7 +15,6 @@ import static by.chyzh.util.PathUtil.*;
 public class PropertyUtil {
 
     public String url;
-    public String nameCsvFile;
     public int maxDepth;
     public int maxQuantityPage;
     public int limitSort;
@@ -39,7 +38,6 @@ public class PropertyUtil {
         }
 
         url = property.getProperty(URL);
-        nameCsvFile = property.getProperty(NAME_CSV_FILE) + ".csv";
         maxDepth = Integer.parseInt(property.getProperty(MAX_DEPTH));
         maxQuantityPage = Integer.parseInt(property.getProperty(MAX_QUANTITY_PAGE));
         limitSort = Integer.parseInt(property.getProperty(LIMIT_SORT));
