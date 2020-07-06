@@ -1,0 +1,275 @@
+2020-07-06 16:13:28 INFO  Main:17 - Starting a crawl
+2020-07-06 16:13:30 INFO  Main:22 - The crawl is complete
+2020-07-06 16:13:30 INFO  CsvUtil:25 - File creation: 1.csv
+2020-07-06 16:13:30 INFO  CsvUtil:36 - File created
+2020-07-06 16:13:30 INFO  CsvUtil:39 - Recording allData to 1.csv
+2020-07-06 16:13:30 INFO  CsvUtil:45 - The recording is completed
+2020-07-06 16:13:30 INFO  Main:31 - Top hits: 10
+2020-07-06 16:13:44 INFO  Main:17 - Starting a crawl
+2020-07-06 16:13:45 INFO  WebCrawler:102 - Depth: 1, Quantity pages: 1
+2020-07-06 16:13:45 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 2
+2020-07-06 16:13:46 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 3
+2020-07-06 16:13:46 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 4
+2020-07-06 16:13:46 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 5
+2020-07-06 16:13:46 INFO  Main:22 - The crawl is complete
+2020-07-06 16:13:46 INFO  CsvUtil:25 - File creation: 1.csv
+2020-07-06 16:13:46 INFO  CsvUtil:36 - File created
+2020-07-06 16:13:46 INFO  CsvUtil:39 - Recording allData to 1.csv
+2020-07-06 16:13:46 INFO  CsvUtil:45 - The recording is completed
+2020-07-06 16:13:46 INFO  Main:31 - Top hits: 10
+2020-07-06 16:15:15 INFO  Main:17 - Starting a crawl
+2020-07-06 16:15:16 INFO  WebCrawler:102 - Depth: 1, Quantity pages: 1
+2020-07-06 16:15:16 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 2
+2020-07-06 16:15:16 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 3
+2020-07-06 16:15:16 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 4
+2020-07-06 16:15:17 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 5
+2020-07-06 16:15:17 INFO  Main:22 - The crawl is complete
+2020-07-06 16:15:17 INFO  CsvUtil:25 - File creation: 1.csv
+2020-07-06 16:15:17 INFO  CsvUtil:36 - File created
+2020-07-06 16:15:17 INFO  CsvUtil:39 - Recording allData to 1.csv
+2020-07-06 16:15:17 INFO  CsvUtil:45 - The recording is completed
+2020-07-06 16:15:17 INFO  Main:31 - Top hits: 10
+2020-07-06 16:18:02 INFO  Main:17 - Starting a crawl
+2020-07-06 16:18:03 INFO  WebCrawler:102 - Depth: 1, Quantity pages: 1
+2020-07-06 16:18:03 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 2
+2020-07-06 16:18:05 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 3
+2020-07-06 16:18:05 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 4
+2020-07-06 16:18:05 INFO  WebCrawler:102 - Depth: 2, Quantity pages: 5
+2020-07-06 16:18:05 INFO  Main:21 - The crawl is complete
+2020-07-06 16:18:05 INFO  CsvUtil:25 - File creation: 1.csv
+2020-07-06 16:18:05 INFO  CsvUtil:35 - File created
+2020-07-06 16:18:05 INFO  CsvUtil:37 - Recording allData to 1.csv
+2020-07-06 16:18:05 INFO  CsvUtil:42 - The recording is completed
+2020-07-06 16:18:05 INFO  Main:26 - Depth: 2
+2020-07-06 16:18:05 INFO  Main:27 - Quantity page: 5
+2020-07-06 16:18:05 INFO  Main:28 - Top hits: 10
+2020-07-06 17:49:47 INFO  Main:17 - Starting a crawl
+2020-07-06 17:49:49 INFO  WebCrawler:111 - Depth: 1, Quantity pages: 1
+2020-07-06 17:49:50 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 2
+2020-07-06 17:49:50 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 3
+2020-07-06 17:49:50 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 4
+2020-07-06 17:49:51 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 5
+2020-07-06 17:49:51 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 6
+2020-07-06 17:49:51 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 7
+2020-07-06 17:49:51 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 8
+2020-07-06 17:49:51 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 9
+2020-07-06 17:49:52 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 10
+2020-07-06 17:49:52 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 11
+2020-07-06 17:49:52 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 12
+2020-07-06 17:49:54 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 13
+2020-07-06 17:49:54 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 14
+2020-07-06 17:49:55 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 15
+2020-07-06 17:49:55 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 16
+2020-07-06 17:49:57 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 17
+2020-07-06 17:49:57 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 18
+2020-07-06 17:49:57 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 19
+2020-07-06 17:49:57 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 20
+2020-07-06 17:49:57 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 21
+2020-07-06 17:49:58 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 22
+2020-07-06 17:49:59 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 23
+2020-07-06 17:50:00 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 24
+2020-07-06 17:50:01 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 25
+2020-07-06 17:50:02 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 26
+2020-07-06 17:50:03 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 27
+2020-07-06 17:50:03 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 28
+2020-07-06 17:50:04 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 29
+2020-07-06 17:50:05 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 30
+2020-07-06 17:50:05 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 31
+2020-07-06 17:50:06 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 32
+2020-07-06 17:50:06 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 33
+2020-07-06 17:50:07 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 34
+2020-07-06 17:50:08 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 35
+2020-07-06 17:50:08 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 36
+2020-07-06 17:50:09 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 37
+2020-07-06 17:50:10 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 38
+2020-07-06 17:50:14 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 39
+2020-07-06 17:50:15 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 40
+2020-07-06 17:50:19 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 41
+2020-07-06 17:50:20 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 42
+2020-07-06 17:50:21 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 43
+2020-07-06 17:50:27 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 44
+2020-07-06 17:50:30 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 45
+2020-07-06 17:50:31 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 46
+2020-07-06 17:50:32 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 47
+2020-07-06 17:50:33 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 48
+2020-07-06 17:50:34 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 49
+2020-07-06 17:50:34 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 50
+2020-07-06 17:50:35 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 51
+2020-07-06 17:50:36 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 52
+2020-07-06 17:50:37 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 53
+2020-07-06 17:50:38 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 54
+2020-07-06 17:50:39 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 55
+2020-07-06 17:50:40 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 56
+2020-07-06 17:50:41 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 57
+2020-07-06 17:50:41 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 58
+2020-07-06 17:50:42 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 59
+2020-07-06 17:50:47 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 60
+2020-07-06 17:50:48 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 61
+2020-07-06 17:50:53 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 62
+2020-07-06 17:50:54 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 63
+2020-07-06 17:50:55 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 64
+2020-07-06 17:50:56 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 65
+2020-07-06 17:50:56 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 66
+2020-07-06 17:50:58 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 67
+2020-07-06 17:50:59 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 68
+2020-07-06 17:50:59 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 69
+2020-07-06 17:51:00 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 70
+2020-07-06 17:51:00 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 71
+2020-07-06 17:51:03 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 72
+2020-07-06 17:51:03 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 73
+2020-07-06 17:51:04 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 74
+2020-07-06 17:51:05 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 75
+2020-07-06 17:51:06 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 76
+2020-07-06 17:51:07 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 77
+2020-07-06 17:51:08 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 78
+2020-07-06 17:51:09 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 79
+2020-07-06 17:51:10 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 80
+2020-07-06 17:51:11 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 81
+2020-07-06 17:51:12 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 82
+2020-07-06 17:51:13 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 83
+2020-07-06 17:51:13 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 84
+2020-07-06 17:51:14 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 85
+2020-07-06 17:51:15 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 86
+2020-07-06 17:51:15 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 87
+2020-07-06 17:51:18 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 88
+2020-07-06 17:51:19 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 89
+2020-07-06 17:51:20 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 90
+2020-07-06 17:51:20 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 91
+2020-07-06 17:51:21 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 92
+2020-07-06 17:51:22 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 93
+2020-07-06 17:51:23 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 94
+2020-07-06 17:51:23 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 95
+2020-07-06 17:51:24 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 96
+2020-07-06 17:51:25 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 97
+2020-07-06 17:51:27 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 98
+2020-07-06 17:51:30 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 99
+2020-07-06 17:51:30 INFO  WebCrawler:111 - Depth: 2, Quantity pages: 100
+2020-07-06 17:51:30 INFO  Main:21 - The crawl is complete
+2020-07-06 17:51:30 INFO  CsvUtil:25 - File creation: statistic.csv
+2020-07-06 17:51:30 INFO  CsvUtil:35 - File created
+2020-07-06 17:51:30 INFO  CsvUtil:37 - Recording allData to statistic.csv
+2020-07-06 17:51:30 INFO  CsvUtil:42 - The recording is completed
+2020-07-06 17:51:30 INFO  Main:26 - Depth: 2
+2020-07-06 17:51:30 INFO  Main:27 - Quantity page: 100
+2020-07-06 17:51:30 INFO  Main:29 - Top hits: 10
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/,9,18,2,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com,9,18,2,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/#,9,18,2,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/2020/07/06/coronavirus-greece-shuts-serbia-border-amid-covid-19-spike-in-the-balkans,11,17,0,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/special/coronavirus,7,19,0,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.al/al,3,18,0,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/news/international,6,13,2,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/news/business,8,13,0,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/news/americas,4,9,8,0,0
+2020-07-06 17:51:30 INFO  Main:183 - https://www.euronews.com/programs/view,3,13,2,1,1
+2020-07-06 18:07:01 INFO  Main:17 - Starting a crawl
+2020-07-06 18:07:02 INFO  WebCrawler:122 - Depth: 1, Quantity pages: 1
+2020-07-06 18:07:03 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 2
+2020-07-06 18:07:03 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 3
+2020-07-06 18:07:03 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 4
+2020-07-06 18:07:04 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 5
+2020-07-06 18:07:06 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 6
+2020-07-06 18:07:07 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 7
+2020-07-06 18:07:07 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 8
+2020-07-06 18:07:07 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 9
+2020-07-06 18:07:09 INFO  WebCrawler:122 - Depth: 2, Quantity pages: 10
+2020-07-06 18:07:09 INFO  Main:21 - The crawl is complete
+2020-07-06 18:07:09 INFO  CsvUtil:25 - File creation: statistic.csv
+2020-07-06 18:07:09 INFO  CsvUtil:35 - File created
+2020-07-06 18:07:09 INFO  CsvUtil:37 - Recording allData to statistic.csv
+2020-07-06 18:07:09 INFO  CsvUtil:42 - The recording is completed
+2020-07-06 18:07:09 INFO  Main:25 - Depth: 2
+2020-07-06 18:07:09 INFO  Main:26 - Quantity page: 10
+2020-07-06 18:07:09 INFO  Main:28 - Top hits: 10
+2020-07-06 18:07:09 INFO  Main:183 - https://www.euronews.com/,9,20,2,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://www.euronews.com,9,20,2,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://gr.euronews.com,2,9,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://fr.euronews.com,8,1,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://de.euronews.com,8,1,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://it.euronews.com,7,0,1,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://es.euronews.com,4,3,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://pt.euronews.com,3,0,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://ru.euronews.com,2,0,0,0,0
+2020-07-06 18:07:09 INFO  Main:183 - https://tr.euronews.com,0,0,0,0,0
+2020-07-06 18:07:09 INFO  Main:33 - Generalized data: 10
+2020-07-06 18:07:09 INFO  Main:1510 - https://www.euronews.com/,java.util.stream.ReferencePipeline$3@61d6015a
+2020-07-06 18:07:09 INFO  Main:1510 - Coronavirus - 52 hits
+2020-07-06 18:07:09 INFO  Main:1510 - COVID-19 - 54 hits
+2020-07-06 18:07:09 INFO  Main:1510 - Trump - 5 hits
+2020-07-06 18:07:09 INFO  Main:1510 - Lukashenko - 0 hits
+2020-07-06 18:07:09 INFO  Main:1510 - Belarus - 0 hits
+2020-07-06 18:07:09 INFO  Main:1510 - Total - 111 hits
+2020-07-06 18:16:01 INFO  Main:17 - Starting a crawl
+2020-07-06 18:16:02 INFO  WebCrawler:121 - Depth: 1, Quantity pages: 1
+2020-07-06 18:16:02 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 2
+2020-07-06 18:16:02 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 3
+2020-07-06 18:16:04 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 4
+2020-07-06 18:16:04 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 5
+2020-07-06 18:16:05 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 6
+2020-07-06 18:16:06 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 7
+2020-07-06 18:16:06 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 8
+2020-07-06 18:16:06 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 9
+2020-07-06 18:16:06 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 10
+2020-07-06 18:16:06 INFO  Main:21 - The crawl is complete
+2020-07-06 18:16:06 INFO  CsvUtil:25 - File creation: statistic.csv
+2020-07-06 18:16:06 INFO  CsvUtil:35 - File created
+2020-07-06 18:16:06 INFO  CsvUtil:37 - Recording allData to statistic.csv
+2020-07-06 18:16:06 INFO  CsvUtil:42 - The recording is completed
+2020-07-06 18:16:06 INFO  Main:25 - Depth: 2
+2020-07-06 18:16:06 INFO  Main:26 - Quantity page: 10
+2020-07-06 18:16:06 INFO  Main:28 - Top hits: 10
+2020-07-06 18:16:06 INFO  Main:183 - https://www.euronews.com/,9,20,2,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://www.euronews.com,9,20,2,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://gr.euronews.com,2,9,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://de.euronews.com,9,1,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://fr.euronews.com,8,1,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://it.euronews.com,7,0,1,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://es.euronews.com,4,3,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://pt.euronews.com,3,0,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://ru.euronews.com,2,0,0,0,0
+2020-07-06 18:16:06 INFO  Main:183 - https://tr.euronews.com,0,0,0,0,0
+2020-07-06 18:16:06 INFO  Main:33 - Generalized data: 10
+2020-07-06 18:16:06 INFO  Main:1510 - https://www.euronews.com/,5354500112
+2020-07-06 18:16:06 INFO  Main:1510 - Coronavirus - 53 hits
+2020-07-06 18:16:06 INFO  Main:1510 - COVID-19 - 54 hits
+2020-07-06 18:16:06 INFO  Main:1510 - Trump - 5 hits
+2020-07-06 18:16:06 INFO  Main:1510 - Lukashenko - 0 hits
+2020-07-06 18:16:06 INFO  Main:1510 - Belarus - 0 hits
+2020-07-06 18:16:06 INFO  Main:1510 - Total - 112 hits
+2020-07-06 18:16:34 INFO  Main:17 - Starting a crawl
+2020-07-06 18:16:35 INFO  WebCrawler:121 - Depth: 1, Quantity pages: 1
+2020-07-06 18:16:35 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 2
+2020-07-06 18:16:35 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 3
+2020-07-06 18:16:36 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 4
+2020-07-06 18:16:36 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 5
+2020-07-06 18:16:36 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 6
+2020-07-06 18:16:36 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 7
+2020-07-06 18:16:37 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 8
+2020-07-06 18:16:37 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 9
+2020-07-06 18:16:37 INFO  WebCrawler:121 - Depth: 2, Quantity pages: 10
+2020-07-06 18:16:37 INFO  Main:21 - The crawl is complete
+2020-07-06 18:16:37 INFO  CsvUtil:25 - File creation: statistic.csv
+2020-07-06 18:16:37 INFO  CsvUtil:35 - File created
+2020-07-06 18:16:37 INFO  CsvUtil:37 - Recording allData to statistic.csv
+2020-07-06 18:16:37 INFO  CsvUtil:42 - The recording is completed
+2020-07-06 18:16:37 INFO  Main:25 - Depth: 2
+2020-07-06 18:16:37 INFO  Main:26 - Quantity page: 10
+2020-07-06 18:16:37 INFO  Main:28 - Top hits: 10
+2020-07-06 18:16:37 INFO  Main:183 - https://www.euronews.com/,9,20,2,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://www.euronews.com,9,20,2,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://gr.euronews.com,2,9,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://de.euronews.com,9,1,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://fr.euronews.com,8,1,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://it.euronews.com,7,0,1,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://es.euronews.com,4,3,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://pt.euronews.com,3,0,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://ru.euronews.com,2,0,0,0,0
+2020-07-06 18:16:37 INFO  Main:183 - https://tr.euronews.com,0,0,0,0,0
+2020-07-06 18:16:37 INFO  Main:33 - Generalized data: 10
+2020-07-06 18:16:37 INFO  Main:1510 - https://www.euronews.com/,53,54,5,0,0,112
+2020-07-06 18:16:37 INFO  Main:1510 - Coronavirus - 53 hits
+2020-07-06 18:16:37 INFO  Main:1510 - COVID-19 - 54 hits
+2020-07-06 18:16:37 INFO  Main:1510 - Trump - 5 hits
+2020-07-06 18:16:37 INFO  Main:1510 - Lukashenko - 0 hits
+2020-07-06 18:16:37 INFO  Main:1510 - Belarus - 0 hits
+2020-07-06 18:16:37 INFO  Main:1510 - Total - 112 hits
