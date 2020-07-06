@@ -11,4 +11,6 @@ public class PathUtil {
     public static final String MAX_QUANTITY_PAGE = "maxQuantityPage";
     public static final String MAX_DEPTH = "maxDepth";
     public static final String URL = "URL";
+    public static final String ALL_STATISTIC_FILE_NAME = "allStatisticFileName";
+    public static final String SORT_STATISTIC_FILE_NAME = "sortStatisticFileName";
 }

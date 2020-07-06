@@ -8,8 +8,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-
-import static by.chyzh.util.PathUtil.PATH_TO_CSV_DIRECTORY;
 import static java.lang.String.format;
 
 
@@ -17,28 +15,26 @@ import static java.lang.String.format;
 @UtilityClass
 public class CsvUtil {
 
-    public static void csvWriter(List<String[]> stringArray, String nameCsvFile) {
+    public static void csvWriter(List<String[]> stringArray, File csvFile) {
 
         CSVWriter writer;
 
         try {
 
-            log.info(format("File creation: %s.csv", nameCsvFile));
-
-            File file = new File(PATH_TO_CSV_DIRECTORY);
-
-            if (!file.exists()) {
-                if (!file.mkdir()) {
+            if (!csvFile.getParentFile().exists()) {
+                if (!csvFile.getParentFile().mkdir()) {
                     log.error("Directory is not created");
                 }
                 log.info("Directory is created");
             }
 
-            writer = new CSVWriter(new FileWriter(format("%s%s.csv", PATH_TO_CSV_DIRECTORY, nameCsvFile)));
+            log.info(format("File creation: %s", csvFile.getName()));
+
+            writer = new CSVWriter(new FileWriter(csvFile));
 
             log.info("File created");
 
-            log.info(format("Recording allData to %s.csv", nameCsvFile));
+            log.info(format("Recording data to %s", csvFile.getName()));
 
             stringArray.forEach(writer::writeNext);
             writer.close();
@@ -46,9 +42,7 @@ public class CsvUtil {
             log.info("The recording is completed");
 
         } catch (IOException e) {
-            log.error(format("%s is not created", nameCsvFile));
+            log.error(format("%s is not created", csvFile.getName()));
         }
-
-
     }
 }

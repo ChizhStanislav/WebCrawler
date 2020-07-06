@@ -2,6 +2,7 @@ package by.chyzh;
 
 import by.chyzh.util.JsoupUtil;
 import by.chyzh.util.StringUtil;
+import lombok.Getter;
 import lombok.extern.log4j.Log4j;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -23,8 +24,10 @@ public class WebCrawler {
 
     private final String rootUrl;
     private final int maxDepth;
+    @Getter
     private int depth = 1;
     private final int maxQuantityPage;
+    @Getter
     private int countPage;
 
     public WebCrawler(String url, int maxDepth, int maxPage, String[] words) {
@@ -132,18 +135,10 @@ public class WebCrawler {
 
         queue = linksOfNewLevel;
 
-        if (depth <= maxDepth && countPage < maxQuantityPage) {
+        if (depth <= maxDepth && countPage < maxQuantityPage && queue.size() != 0) {
             launchCrawler();
         }
 
-    }
-
-    public int getDepth() {
-        return depth;
-    }
-
-    public int getCountPage() {
-        return countPage;
     }
 
     private void LinkedHashMapToListOfArrayString(List<String[]> list, int sizeArray, String rootUrl, int[] totalHeader) {
