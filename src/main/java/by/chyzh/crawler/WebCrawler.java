@@ -1,4 +1,4 @@
-package by.chyzh;
+package by.chyzh.crawler;
 
 import by.chyzh.util.JsoupUtil;
 import by.chyzh.util.StringUtil;
@@ -18,7 +18,7 @@ public class WebCrawler {
     private final String[] words;
     private List<String> queue;
     @Getter
-    private final int[] totalNumbers;
+    private final int[] totalHitByOneWord;
     @Getter
     private final LinkedHashMap<String, int[]> allData;
     private final int maxDepth;
@@ -30,7 +30,7 @@ public class WebCrawler {
 
     public WebCrawler(String url, int maxDepth, int maxPage, String[] words) {
         this.uniqueLinks = new HashSet<>();
-        this.totalNumbers = new int[words.length + 1];
+        this.totalHitByOneWord = new int[words.length + 1];
         this.queue = Collections.singletonList(url);
         this.allData = new LinkedHashMap<>();
         this.maxDepth = maxDepth;
@@ -44,9 +44,9 @@ public class WebCrawler {
 
         queue.forEach(link -> {
 
-            if (countPage != maxQuantityPage) {
+            Document document;
 
-                Document document;
+            if (countPage < maxQuantityPage) {
 
                 try {
                     document = JsoupUtil.getDocument(link);
@@ -56,18 +56,18 @@ public class WebCrawler {
                     if (Objects.nonNull(document.body())) {
                         String text = document.body().text();
 
-                        int sum = 0;
+                        int totalSumHitByAllWords = 0;
 
                         int[] arrayDataOnceLink = new int[words.length];
 
                         for (int i = 0; i < words.length; i++) {
-                            int countEntryWord = StringUtil.countEntry(text, words[i]);
-                            totalNumbers[i] += countEntryWord;
-                            sum += countEntryWord;
+                            int countEntryWord = StringUtil.countEntryWordToText(text, words[i]);
+                            totalHitByOneWord[i] += countEntryWord;
+                            totalSumHitByAllWords += countEntryWord;
                             arrayDataOnceLink[i] = countEntryWord;
                         }
 
-                        totalNumbers[words.length] += sum;
+                        totalHitByOneWord[words.length] += totalSumHitByAllWords;
                         allData.put(link, arrayDataOnceLink);
                     }
 

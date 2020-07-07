@@ -11,7 +11,7 @@ public class StringUtilTest {
         String text = "black   red_Black&&&redRed738748--black";
         String word = "black";
 
-        Assert.assertEquals(3, StringUtil.countEntry(text, word));
+        Assert.assertEquals(3, StringUtil.countEntryWordToText(text, word));
 
     }
 

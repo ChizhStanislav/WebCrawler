@@ -1,4 +1,4 @@
-package by.chyzh.util;
+package by.chyzh.writer;
 
 
 import com.opencsv.CSVReader;
@@ -15,7 +15,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
-public class CsvUtilTest {
+public class CsvWriterTest {
 
     private List<String[]> list;
     private File file;
@@ -37,7 +37,7 @@ public class CsvUtilTest {
     @SneakyThrows
     public void checkCsvWriter() {
 
-        CsvUtil.csvWriter(list, file);
+        CsvWriter.write(list, file);
 
         CSVReader csvReader = new CSVReader(new FileReader(file));
 

@@ -1,4 +1,4 @@
-package by.chyzh;
+package by.chyzh.statistic;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
@@ -17,15 +17,9 @@ public class Statistic {
     private final String[] words;
 
     public List<String[]> getAllData() {
-
         List<String[]> list = new ArrayList<>();
-
-        LinkedHashMapToListOfArrayString(list, totalNumbers.length + 1, rootUrl, totalNumbers);
-
-        allData.forEach((key, value) -> LinkedHashMapToListOfArrayString(list, totalNumbers.length, key, value));
-
-        log.info("The crawl is complete");
-
+        mapToListOfArrayString(list, totalNumbers.length + 1, rootUrl, totalNumbers);
+        allData.forEach((key, value) -> mapToListOfArrayString(list, totalNumbers.length, key, value));
         return list;
     }
 
@@ -38,13 +32,10 @@ public class Statistic {
     }
 
     public List<String> getGeneralizedData() {
-
         List<String> list = new ArrayList<>();
-
         String allStatistic = Arrays.stream(totalNumbers)
                 .mapToObj(String::valueOf)
                 .collect(Collectors.joining(","));
-
         list.add(String.format("%s,%s", rootUrl, allStatistic));
 
         for (int i = 0; i < words.length; i++) {
@@ -52,11 +43,10 @@ public class Statistic {
         }
 
         list.add("Total - " + totalNumbers[totalNumbers.length - 1] + " hits");
-
         return list;
     }
 
-    private void LinkedHashMapToListOfArrayString(List<String[]> list, int sizeArray, String rootUrl, int[] totalHeader) {
+    private void mapToListOfArrayString(List<String[]> list, int sizeArray, String rootUrl, int[] totalHeader) {
         String[] arrayTotalHeader = new String[sizeArray];
         arrayTotalHeader[0] = rootUrl;
         for (int i = 0; i < totalHeader.length; i++) {
@@ -73,6 +63,4 @@ public class Statistic {
         }
         return array;
     }
-
-
 }

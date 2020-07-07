@@ -1,4 +1,4 @@
-package by.chyzh.util;
+package by.chyzh.writer;
 
 import com.opencsv.CSVWriter;
 import lombok.experimental.UtilityClass;
@@ -13,33 +13,23 @@ import static java.lang.String.format;
 
 @Log4j
 @UtilityClass
-public class CsvUtil {
+public class CsvWriter {
 
-    public static void csvWriter(List<String[]> stringArray, File csvFile) {
+    public static void write(List<String[]> stringArray, File csvFile) {
 
         CSVWriter writer;
 
         try {
-
             if (!csvFile.getParentFile().exists()) {
                 if (!csvFile.getParentFile().mkdir()) {
                     log.error("Directory is not created");
                 }
-                log.info("Directory is created");
             }
-
-            log.info(format("File creation: %s", csvFile.getName()));
-
             writer = new CSVWriter(new FileWriter(csvFile));
-
-            log.info("File created");
-
-            log.info(format("Recording data to %s", csvFile.getName()));
-
             stringArray.forEach(writer::writeNext);
             writer.close();
 
-            log.info("The recording is completed");
+            log.info(format("Recording data to %s is completed", csvFile.getName()));
 
         } catch (IOException e) {
             log.error(format("%s is not created", csvFile.getName()));

@@ -5,7 +5,7 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class StringUtil {
 
-    public int countEntry(String str, String target) {
-        return (str.length() - str.toUpperCase().replace(target.toUpperCase(), "").length()) / target.length();
+    public int countEntryWordToText(String text, String word) {
+        return (text.length() - text.toUpperCase().replace(word.toUpperCase(), "").length()) / word.length();
     }
 }
