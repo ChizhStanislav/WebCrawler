@@ -12,7 +12,7 @@ Installation guideline (for windows)
 
 -to install the Web Crawler Application, you need to download it from a remote repository via the link using a third-party application (Git Bash...) or download a ZIP
 -archive, in the second case you need to unpack the archive after downloading; -you should install apache-maven (link: https://maven.apache.org/);
--to launch the Web Crawler, go to the root directory of the project from the command line (.../webCrawler) and type the command (mvn clean package exec:java -Dexec.mainClass="by.chyzh.Main" -Durl=https://www.tut.by/ -Dwords=hello,welcome ), where -Durl= predefined URL, -Dwords=comma-separated list of terms;
+-to launch the Web Crawler, go to the root directory of the project from the command line (.../WebCrawler-master) and type the command (mvn clean package exec:java -Dexec.mainClass="by.chyzh.Main" -Durl=https://www.tut.by/ -Dwords=hello,welcome ), where -Durl= predefined URL, -Dwords=comma-separated list of terms;
 -to change the standard values add the following lines to the command: 
 -DmaxDepth= the number of maximum link depth,
 -DmaxQuantityPage = the number of maximum visited pages
