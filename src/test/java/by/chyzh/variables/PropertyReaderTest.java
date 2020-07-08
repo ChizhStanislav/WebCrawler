@@ -8,13 +8,15 @@ public class PropertyReaderTest {
     @Test
     public void getConnectToProperty(){
 
-        PropertyReader.getConnectToProperty("src\\test\\resources\\config-test.properties");
+        PropertyReader propertyReader = new PropertyReader();
 
-        String url = PropertyReader.getRootUrl();
-        int limitSort = PropertyReader.getLimitSort();
-        int maxDepth = PropertyReader.getMaxDepth();
-        int maxQuantityPage = PropertyReader.getMaxQuantityPage();
-        String[] words = PropertyReader.getWords();
+        propertyReader.getConnectToProperty("/config-test.properties");
+
+        String url = propertyReader.getRootUrl();
+        int limitSort = propertyReader.getLimitSort();
+        int maxDepth = propertyReader.getMaxDepth();
+        int maxQuantityPage = propertyReader.getMaxQuantityPage();
+        String[] words = propertyReader.getWords();
 
         assertEquals(10, limitSort);
         assertEquals(8, maxDepth);

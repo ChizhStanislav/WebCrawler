@@ -9,7 +9,23 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
+    <properties>
+        <url>https://www.tut.by/</url>
+        <words>hello</words>
+        <maxDepth>8</maxDepth>
+        <maxQuantityPage>10000</maxQuantityPage>
+        <limitSort>10</limitSort>
+        <allStatistic>allStatistic</allStatistic>
+        <sortStatistic>sortStatistic</sortStatistic>
+    </properties>
+
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -71,6 +87,12 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

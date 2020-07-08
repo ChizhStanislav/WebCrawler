@@ -18,35 +18,31 @@ import static org.junit.Assert.assertEquals;
 public class CsvWriterTest {
 
     private List<String[]> list;
-    private File file;
 
     @Before
     public void before() {
         list = new ArrayList<>();
         list.add(new String[]{"www.tut.by", "0", "1", "2"});
-        file = new File("src/test/resources/csv/test.csv");
     }
 
     @After
     public void after() {
-        file.delete();
-        file.getParentFile().delete();
+       new File("test.csv").delete();
     }
 
     @Test
     @SneakyThrows
     public void checkCsvWriter() {
 
-        CsvWriter.write(list, file);
+        CsvWriter.write(list, "test.csv");
 
-        CSVReader csvReader = new CSVReader(new FileReader(file));
+        CSVReader csvReader = new CSVReader(new FileReader("test.csv"));
 
         List<String[]> strings = csvReader.readAll();
 
         csvReader.close();
 
-        assertTrue(file.getParentFile().exists());
-        assertTrue(file.exists());
+        assertTrue(new File("test.csv").exists());
         assertEquals(1, strings.size());
         assertEquals(list.get(0)[0], strings.get(0)[0]);
         assertEquals(list.get(0)[1], strings.get(0)[1]);

@@ -1,19 +1,16 @@
 package by.chyzh.variables;
 
 import lombok.Getter;
-import lombok.experimental.UtilityClass;
 import lombok.extern.log4j.Log4j;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 @Log4j
-@UtilityClass
 public class PropertyReader {
 
-    public static final String PATH_TO_CSV_DIRECTORY = "src/main/resources/csv/";
     public static final String WORDS = "words";
     public static final String LIMIT_SORT = "limitSort";
     public static final String MAX_QUANTITY_PAGE = "maxQuantityPage";
@@ -40,12 +37,18 @@ public class PropertyReader {
 
     public void getConnectToProperty(String path) {
 
+        InputStream resourceAsStream = this.getClass().getResourceAsStream(path);
+
         property = new Properties();
-        FileInputStream file = null;
 
         try {
-            file = new FileInputStream(path);
-            property.load(file);
+            property.load(resourceAsStream);
+            maxDepth = Integer.parseInt(getProperty(MAX_DEPTH));
+            maxQuantityPage = Integer.parseInt(getProperty(MAX_QUANTITY_PAGE));
+            limitSort = Integer.parseInt(getProperty(LIMIT_SORT));
+        } catch (NumberFormatException e) {
+            log.error("Properties maxDepth and maxQuantityPage must be number");
+            System.exit(0);
         } catch (FileNotFoundException e) {
             log.error("File config.properties not found");
         } catch (IOException e) {
@@ -53,12 +56,9 @@ public class PropertyReader {
         }
 
         rootUrl = getProperty(URL);
-        maxDepth = Integer.parseInt(getProperty(MAX_DEPTH));
-        maxQuantityPage = Integer.parseInt(getProperty(MAX_QUANTITY_PAGE));
-        limitSort = Integer.parseInt(getProperty(LIMIT_SORT));
+        words = getProperty(WORDS).split(",");
         allStatisticFileName = getProperty(ALL_STATISTIC_FILE_NAME);
         sortStatisticFileName = getProperty(SORT_STATISTIC_FILE_NAME);
-        words = getProperty(WORDS).split(",");
     }
 
     private String getProperty(String key) {

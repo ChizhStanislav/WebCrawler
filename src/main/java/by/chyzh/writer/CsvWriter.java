@@ -3,11 +3,10 @@ package by.chyzh.writer;
 import com.opencsv.CSVWriter;
 import lombok.experimental.UtilityClass;
 import lombok.extern.log4j.Log4j;
-
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+
 import static java.lang.String.format;
 
 
@@ -15,24 +14,20 @@ import static java.lang.String.format;
 @UtilityClass
 public class CsvWriter {
 
-    public static void write(List<String[]> stringArray, File csvFile) {
+    public static void write(List<String[]> stringArray, String csvName) {
 
         CSVWriter writer;
 
         try {
-            if (!csvFile.getParentFile().exists()) {
-                if (!csvFile.getParentFile().mkdir()) {
-                    log.error("Directory is not created");
-                }
-            }
-            writer = new CSVWriter(new FileWriter(csvFile));
+
+            writer = new CSVWriter(new FileWriter(csvName));
             stringArray.forEach(writer::writeNext);
             writer.close();
 
-            log.info(format("Recording data to %s is completed", csvFile.getName()));
+            log.info(format("Recording data to %s is completed", csvName));
 
         } catch (IOException e) {
-            log.error(format("%s is not created", csvFile.getName()));
+            log.error(format("%s is not created", csvName));
         }
     }
 }
